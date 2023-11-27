@@ -48,11 +48,12 @@ generateButton.addEventListener('click', () => {
     strengthText.textContent = 'Moderate';
     strengthText.style.color = 'orange';
   } else {
-    strengthText.textContent = 'Strong';
+    strengthText.textContent = 'Strong 👾';
     strengthText.style.color = 'green';
   }
 
   copyButton.style.display = 'inline'; 
+
   
   const inputPosition = generatedPassword.getBoundingClientRect();
   copyButton.style.top = `${inputPosition.top}px`;
